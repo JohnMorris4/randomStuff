@@ -1,0 +1,100 @@
+
+body{
+	background: #666;
+	color: white;
+	font-family: arial;
+	line-height: 1.4em;
+}
+
+.clr{
+	clear: both;
+}
+/* ancore tags  */
+ul{
+	padding: 0;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#container{
+	background: #333;
+	width: 960px;
+	margin: 30px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+/*NAVBAR*/
+#nav{
+	height: 40px;
+	background: #666;
+
+}
+#nav ul{
+	padding: 13px 0 0 10px;
+}
+#nav li{
+	list-style: none;
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+#nav .active {
+	font-weight: bold;
+	color: #000;
+}
+
+/*MAIN*/
+#main{
+	float: left;
+	width: 60%;
+}
+/*SIDEBAR*/
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #666;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+/*FOOTER*/
+#footer{
+	text-align: center;
+	padding: 10px;
+	background: #666;
+	margin-top: 30px;
+}
+
+/*SERVICES*/
+.services li{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px #666 dashed;
+}
+
+.services li a {
+	border: 1px solid red;
+	padding: 10px;
+	background: red;
+	border-radius: 5%;
+	color: black;
+}
+
+/*form*/
+
+#contact{
+	margin-left: 20px;
+}
+form{
+	margin: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 15px;
+}

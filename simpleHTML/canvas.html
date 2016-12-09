@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+    #myCanvas, #another {
+    border: 1px solid #f5cc17;
+	background-color: lightcyan;
+
+}
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" height="300" width="300"></canvas>
+    <br>
+    <br>
+    <br>
+    <canvas id="another" height="300" width="300" >another</canvas>
+
+
+    <script>
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext('2d');
+//         ctx.fillStyle='red';
+//    ctx.fillRect(75, 75, 120,120);
+//    var another  document.getElementById('another');
+//        var ctx1=another.getContext('2d'){
+//            ctx1.moveTo(0, 0);
+//        }
+//
+      //Circle
+        ctx.beginPath();
+        ctx.arc(150,120,60,0,2*Math.PI);
+        ctx.fillStyle='green';
+        ctx.fill();
+
+    </script>
+</body>
+</html>

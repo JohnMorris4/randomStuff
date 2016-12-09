@@ -1,0 +1,343 @@
+first commit
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..e69de29
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..d48b28f
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,44 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>ABOUT | Simple HTML Templete</title>
++	<!-- css rules go below -->
++	<link rel="stylesheet" href="style.css">
++</head>
++<body>
++	<div id="container">
++		<div id="header">
++			<h1>Simple HTML Template</h1>
++		</div>
++		<div id="nav">
++			<ul>
++				<li><a  href="index.html">HOME</a></li>
++				<li><a class="active" href="about.html">ABOUT</a></li>
++				<li><a href="services.html">SERVICES</a></li>
++				<li><a href="contact.html">CONTACT</a></li>
++			</ul>
++		</div>
++		<div id="main">
++			<h1>About</h1>
++			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dicta veritatis a hic nostrum numquam cupiditate modi cum beatae eius, asperiores natus sed temporibus odit id officiis libero. Nulla, eos.
++
++			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem officiis voluptas ipsa quam natus laborum praesentium cupiditate perferendis cum dolores, animi adipisci consequatur deleniti recusandae aliquid sed voluptates doloremque!</p>
++
++			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum odit error quidem atque molestiae aliquam at id tempora itaque nesciunt consectetur, maxime illum facilis iste rem quod sint tempore! Voluptatum!</span>
++			<span>Quos iure quia, nesciunt ea deserunt eaque aliquam nostrum asperiores aperiam odit dicta cumque illo ad, maiores blanditiis beatae, adipisci voluptas minus eveniet hic molestiae praesentium tempora expedita? Rerum, quod.</span>
++			</p>
++		</div>
++		<div id="sidebar">
++		<h3>SideBar</h3>
++			<p><span>Officiis perferendis quo temporibus nulla nam provident obcaecati id recusandae cum, eum sequi tempora perspiciatis velit quibusdam soluta autem corrupti officia. Voluptate quidem earum dolore, eligendi consequuntur cum nesciunt at.</span>
++			<span>Saepe, repudiandae non voluptatum aliquam, rerum impedit accusamus nulla tenetur iste ab quasi deleniti, aliquid tempora voluptate itaque ea veritatis illo eum eveniet. Quis explicabo dolorem voluptatibus sit aspernatur quibusdam.</span>
++			</p>
++		 </div>
++		 <div class="clr"></div>
++		 <div id="footer">
++			<p>Copyright &copy; 2016 | John Morris</p>
++		 </div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..59bf7ae
+--- /dev/null
++++ b/contact.html
+@@ -0,0 +1,52 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>CONTACT | Simple HTML Templete</title>
++	<!-- css rules go below -->
++	<link rel="stylesheet" href="style.css">
++</head>
++<body>
++	<div id="container">
++		<div id="header">
++			<h1>Simple HTML Template</h1>
++		</div>
++		<div id="nav">
++			<ul>
++				<li><a href="index.html">HOME</a></li>
++				<li><a href="about.html">ABOUT</a></li>
++				<li><a href="services.html">SERVICES</a></li>
++				<li><a class="active" href="contact.html">CONTACT</a></li>
++			</ul>
++		</div>
++		<div id="main">
++			<h1 id="contact">Contact</h1>
++			<form action="">
++				<div>
++					<label for=" ">Name</label><br>
++					<input type="text" name="name">
++				</div>
++				<div>
++					<label for=" ">Email</label><br>
++					<input type="email" name="email">
++				</div>
++				<div>
++					<label for=" ">Message</label><br>
++					<textarea name="" id="" cols="30" rows="10"></textarea>
++				</div>
++				<button type="submit">Submit</button>
++			</form>
++		</div>
++		<div id="sidebar">
++		<h3>SideBar</h3>
++			<p><span>Officiis perferendis quo temporibus nulla nam provident obcaecati id recusandae cum, eum sequi tempora perspiciatis velit quibusdam soluta autem corrupti officia. Voluptate quidem earum dolore, eligendi consequuntur cum nesciunt at.</span>
++			<span>Saepe, repudiandae non voluptatum aliquam, rerum impedit accusamus nulla tenetur iste ab quasi deleniti, aliquid tempora voluptate itaque ea veritatis illo eum eveniet. Quis explicabo dolorem voluptatibus sit aspernatur quibusdam.</span>
++			</p>
++		 </div>
++		 <div class="clr"></div>
++		 <div id="footer">
++			<p>Copyright &copy; 2016 | John Morris</p>
++		 </div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..ab4674c
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,46 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>HOME | Simple HTML Templete</title>
++	<!-- css rules go below -->
++	<link rel="stylesheet" href="style.css">
++</head>
++<body>
++	<div id="container">
++		<div id="header">
++			<h1>Simple HTML Template</h1>
++		</div>
++		<div id="nav">
++			<ul>
++				<li><a class="active" href="index.html">HOME</a></li>
++				<li><a href="about.html">ABOUT</a></li>
++				<li><a href="services.html">SERVICES</a></li>
++				<li><a href="contact.html">CONTACT</a></li>
++			</ul>
++		</div>
++		<div id="main">
++			<h1>Welcome</h1>
++			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dicta veritatis a hic nostrum numquam cupiditate modi cum beatae eius, asperiores natus sed temporibus odit id officiis libero. Nulla, eos.
++
++			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores rem officiis voluptas ipsa quam natus laborum praesentium cupiditate perferendis cum dolores, animi adipisci consequatur deleniti recusandae aliquid sed voluptates doloremque!</p>
++
++			<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum odit error quidem atque molestiae aliquam at id tempora itaque nesciunt consectetur, maxime illum facilis iste rem quod sint tempore! Voluptatum!</span>
++			<span>Quos iure quia, nesciunt ea deserunt eaque aliquam nostrum asperiores aperiam odit dicta cumque illo ad, maiores blanditiis beatae, adipisci voluptas minus eveniet hic molestiae praesentium tempora expedita? Rerum, quod.</span>
++			<span>Officiis perferendis quo temporibus nulla nam provident obcaecati id recusandae cum, eum sequi tempora perspiciatis velit quibusdam soluta autem corrupti officia. Voluptate quidem earum dolore, eligendi consequuntur cum nesciunt at.</span>
++			<span>Saepe, repudiandae non voluptatum aliquam, rerum impedit accusamus nulla tenetur iste ab quasi deleniti, aliquid tempora voluptate itaque ea veritatis illo eum eveniet. Quis explicabo dolorem voluptatibus sit aspernatur quibusdam.</span>
++			<span>Minus, delectus, culpa? Consequatur fuga molestiae sed quaerat esse nesciunt blanditiis? Omnis distinctio ad, dolores, necessitatibus maxime deserunt, repellendus obcaecati assumenda tempora ducimus ipsum voluptatibus atque et ratione corrupti unde.</span></p>
++		</div>
++		<div id="sidebar">
++		<h3>SideBar</h3>
++			<p><span>Officiis perferendis quo temporibus nulla nam provident obcaecati id recusandae cum, eum sequi tempora perspiciatis velit quibusdam soluta autem corrupti officia. Voluptate quidem earum dolore, eligendi consequuntur cum nesciunt at.</span>
++			<span>Saepe, repudiandae non voluptatum aliquam, rerum impedit accusamus nulla tenetur iste ab quasi deleniti, aliquid tempora voluptate itaque ea veritatis illo eum eveniet. Quis explicabo dolorem voluptatibus sit aspernatur quibusdam.</span>
++			<span>Minus, delectus, culpa? Consequatur fuga molestiae sed quaerat esse nesciunt blanditiis? Omnis distinctio ad, dolores, necessitatibus maxime deserunt, repellendus obcaecati assumenda tempora ducimus ipsum voluptatibus atque et ratione corrupti unde.</span</p>
++		 </div>
++		 <div class="clr"></div>
++		 <div id="footer">
++			<p>Copyright &copy; 2016 | John Morris</p>
++		 </div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/services.html b/services.html
+new file mode 100644
+index 0000000..f881416
+--- /dev/null
++++ b/services.html
+@@ -0,0 +1,57 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>SERVICES | Simple HTML Templete</title>
++	<!-- css rules go below -->
++	<link rel="stylesheet" href="style.css">
++</head>
++<body>
++	<div id="container">
++		<div id="header">
++			<h1>Simple HTML Template</h1>
++		</div>
++		<div id="nav">
++			<ul>
++				<li><a href="index.html">HOME</a></li>
++				<li><a href="about.html">ABOUT</a></li>
++				<li><a class="active" href="services.html">SERVICES</a></li>
++				<li><a href="contact.html">CONTACT</a></li>
++			</ul>
++		</div>
++		<div id="main">
++			<h1 >Services</h1>
++			<ul class="services">
++				<li>
++					<h3>Service One</h3>
++					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio expedita autem, cumque, repellat tenetur libero quasi molestiae nostrum facilis pariatur ad numquam magnam, tempore minus ducimus consectetur! Itaque minima, reprehenderit.</p>
++
++					<a href="#">Read More</a>
++				</li>
++				<li>
++					<h3>Service Two</h3>
++					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio expedita autem, cumque, repellat tenetur libero quasi molestiae nostrum facilis pariatur ad numquam magnam, tempore minus ducimus consectetur! Itaque minima, reprehenderit. libero quasi molestiae nostrum facilis pariatur ad numquam magnam, tempore minus ducimus consectetur! Itaque minima, reprehenderit.</p>
++
++					<a href="#">Read More</a>
++				</li>
++				<li>
++					<h3>Service Three</h3>
++					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio expedita autem, cumque, repellat tenetur libero quasi molestiae nostrum facilis pariatur ad numquam magnam, tempore minus ducimus consectetur! Itaque minima, reprehenderit.</p>
++
++					<a href="#">Read More</a>
++				</li>
++			</ul>
++		</div>
++		<div id="sidebar">
++		<h3>SideBar</h3>
++			<p><span>Officiis perferendis quo temporibus nulla nam provident obcaecati id recusandae cum, eum sequi tempora perspiciatis velit quibusdam soluta autem corrupti officia. Voluptate quidem earum dolore, eligendi consequuntur cum nesciunt at.</span>
++			<span>Saepe, repudiandae non voluptatum aliquam, rerum impedit accusamus nulla tenetur iste ab quasi deleniti, aliquid tempora voluptate itaque ea veritatis illo eum eveniet. Quis explicabo dolorem voluptatibus sit aspernatur quibusdam.</span>
++			</p>
++		 </div>
++		 <div class="clr"></div>
++		 <div id="footer">
++			<p>Copyright &copy; 2016 | John Morris</p>
++		 </div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/style.css b/style.css
+new file mode 100644
+index 0000000..b0b7b3b
+--- /dev/null
++++ b/style.css
+@@ -0,0 +1,100 @@
++
++body{
++	background: #666;
++	color: white;
++	font-family: arial;
++	line-height: 1.4em; 
++}
++
++.clr{
++	clear: both;
++}
++/* ancore tags  */
++ul{	
++	padding: 0;
++}
++
++a{
++	color: #fff;
++	text-decoration: none;
++}
++
++#container{
++	background: #333;
++	width: 960px;
++	margin: 30px auto;
++	overflow: hidden;
++	padding: 10px;
++}
++
++/*NAVBAR*/
++#nav{
++	height: 40px;
++	background: #666;
++
++}
++#nav ul{
++	padding: 13px 0 0 10px;
++}
++#nav li{
++	list-style: none;
++	float: left;
++	display: inline-block;
++	margin-right: 20px;
++}
++#nav .active {
++	font-weight: bold;
++	color: #000;
++}
++
++/*MAIN*/
++#main{
++	float: left;
++	width: 60%;
++}
++/*SIDEBAR*/
++#sidebar{
++	float: right;
++	width: 30%;
++	background: #666;
++	margin-top: 20px;
++	padding: 10px; 
++}
++
++/*FOOTER*/
++#footer{
++	text-align: center;
++	padding: 10px;
++	background: #666;
++	margin-top: 30px; 
++}
++
++/*SERVICES*/
++.services li{
++	margin-bottom: 20px;
++	padding-bottom: 20px;
++	border-bottom: 2px #666 dashed;
++}
++
++.services li a {
++	border: 1px solid red;
++	padding: 10px;
++	background: red;
++	border-radius: 5%;
++	color: black;
++}
++
++/*form*/
++
++#contact{
++	margin-left: 20px;
++}
++form{
++	margin: 20px;
++}
++
++input, textarea{
++	width: 100%;
++	padding: 5px;
++	margin-bottom: 15px;
++}
+\ No newline at end of file
